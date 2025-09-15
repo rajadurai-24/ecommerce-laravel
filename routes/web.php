@@ -36,6 +36,3 @@ Route::get('/reset',ResetPasswordPage::class);
 Route::get('/success',SuccessPage::class);
 Route::get('/cancel',CancelPage::class);
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
