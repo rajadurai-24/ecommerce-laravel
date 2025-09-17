@@ -36,4 +36,3 @@ Route::get('/reset',ResetPasswordPage::class);
 Route::get('/success',SuccessPage::class);
 Route::get('/cancel',CancelPage::class);
 
-Route::get('/filament/register', Register::class);
